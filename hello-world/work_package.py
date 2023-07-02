@@ -1,2 +1,6 @@
-name = input("enter your name")
-print(name)
+from datetime import *
+from dateutil.relativedelta import *
+now = datetime.now()
+print(now)
+now = now+relativedelta(months=1,weeks=1,hours=1)
+print(now)
